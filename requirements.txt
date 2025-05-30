@@ -1,0 +1,17 @@
+# Core Libraries
+numpy>=1.23.0
+opencv-python>=4.7.0
+torch>=1.12.0
+imutils>=0.5.4
+open3d>=0.17.0
+
+# For CLI arguments and threading (usually built-in, listed for completeness)
+argparse
+threadpoolctl
+concurrent-log-handler  # For multi-thread/process (optional)
+
+# If you are using MiDaS for depth estimation
+# You may need the midas model package (if not custom):
+git+https://github.com/isl-org/MiDaS.git
+
+# If you use a local utils.py or custom midas.model_loader, no pip install needed
