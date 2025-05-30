@@ -36,7 +36,6 @@ C --> D[03_Point_Cloud_Estimation.py]
 D --> E[04_PC_Align_Merge.py]
 E --> F[stiching.py]
 
-## 🔁 How to Run
 
 pip install -r requirements.txt
 
